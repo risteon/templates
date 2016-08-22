@@ -1,0 +1,20 @@
+<library path="lib/libros_rqt_plugin">
+    <class name="rqt_plugin/RqtPlugin" type="rqt_plugin::RqtPlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      Empty plugin.
+    </description>
+    <qtgui>
+      <group>
+        <label>Template RQT Plugin</label>
+        <icon type="theme">folder</icon>
+        <statustip>A template</statustip>
+      </group>
+      <label>RQT Plugin Label</label>
+      <icon type="theme">applications_engineering</icon>
+	<!--
+	All icons are listed in gnome-icon-theme-symbolic
+	-->
+      <statustip>Insert statustip</statustip>
+    </qtgui>
+  </class>
+</library>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+
+    <name>ros_rqt_package</name>
+    <version>0.0.0</version>
+    <description>An empty rqt plugin, use this as a template.</description>
+    <maintainer email="todo@osrf.org">TODO</maintainer>
+    <license>TODO</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <depend>roscpp</depend>
+    <depend>rqt_gui</depend>
+    <depend>rqt_gui_cpp</depend>
+
+    <export>
+        <rqt_gui plugin="${prefix}/plugin.xml"/>
+    </export>
+
+</package>
